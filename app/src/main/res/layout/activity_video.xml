@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nurrahman.videobalita.Video">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+    <Button
+        android:id="@+id/btn1th"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UMUR 1 TAHUN"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorAccent"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn2th"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UMUR 2 TAHUN"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:background="@color/transparant"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn3th"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UMUR 3 TAHUN"
+        android:textSize="35dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/kuning"
+        android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btn4th"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UMUR 4 TAHUN"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:background="@color/pink"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btn5th"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UMUR 5 TAHUN"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/ungu"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

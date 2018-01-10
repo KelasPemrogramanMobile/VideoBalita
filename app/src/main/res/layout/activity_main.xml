@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparant"
+    tools:context="com.nurrahman.videobalita.MainActivity">
+
+    <Button
+        android:id="@+id/btnInfoIbu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Informasi Ibunda"
+        android:textSize="36dp"
+        tools:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/btnInfoBayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnInfoIbu"
+        android:layout_alignStart="@+id/btnInfoIbu"
+        android:layout_below="@+id/btnInfoIbu"
+        android:layout_marginTop="21dp"
+        android:text="Informasi Bayi"
+        android:textSize="36dp"
+        tools:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/btnCaraMerawatBayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnInfoIbu"
+        android:layout_alignStart="@+id/btnInfoIbu"
+        android:layout_below="@+id/btnInfoBayi"
+        android:layout_marginTop="24dp"
+        android:text="Cara Merawat Bayi"
+        android:textSize="30dp"
+        tools:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnCaraMerawatBayi"
+        android:layout_alignStart="@+id/btnCaraMerawatBayi"
+        android:layout_below="@+id/btnCaraMerawatBayi"
+        android:layout_marginTop="14dp"
+        android:text="Video"
+        android:textSize="36dp"
+        tools:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/btnOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnVideo"
+        android:layout_alignStart="@+id/btnVideo"
+        android:layout_below="@+id/btnVideo"
+        android:layout_marginTop="22dp"
+        android:text="Exit"
+        android:textSize="36dp"
+        tools:background="@android:color/holo_blue_bright" />
+
+</RelativeLayout>

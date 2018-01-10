@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nurrahman.videobalita">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".informasibunda" />
+        <activity android:name=".CaraMerawatBayi" />
+        <activity android:name=".Video" />
+        <activity android:name=".registrasibunda" />
+        <activity android:name=".Register_Bayi" />
+        <activity android:name=".informasibayi" />
+        <activity android:name=".Umur1th" />
+        <activity android:name=".VideoPertamaUmur1th" />
+        <activity android:name=".VideoKeduaUmur1th" />
+        <activity android:name=".Umur2th" />
+        <activity android:name=".VideoPertamaUmur2th" />
+        <activity android:name=".videoKeduaUmur2th" />
+        <activity android:name=".Umur3th" />
+        <activity android:name=".VideoPertamaUmur3th" />
+        <activity android:name=".VideoKeduaUmur3th" />
+        <activity android:name=".Umur4th" />
+        <activity android:name=".VideoPertamaUmur4th" />
+        <activity android:name=".VideoKeduaUmur4th" />
+        <activity android:name=".Umur5th" />
+        <activity android:name=".VideoPertamaUmur5th" />
+        <activity android:name=".VideoKeduaUmur5th" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login"></activity>
+    </application>
+
+</manifest>
